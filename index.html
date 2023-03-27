@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Contact us Form</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <nav class="navbar">
+         <h1 class="logo">SyntaxSavvy</h1>
+         <ul class="nav-links">
+             <li><a target="_blank" href="https://syntaxsavvy.github.io/Projects">Home</a></li>
+             <li><a class=".active" href="#">Services</a></li>
+             <li><a target="_blank" href="https://syntaxsavvy.github.io/About/">About</a></li>
+             <li class="ctn"><a target="_blank" href="https://syntaxsavvy.github.io/Contact/">Contact</a></li>
+ 
+         </ul>
+         <i id="menu-btn" class="fa-solid fa-bars"></i>   
+      </nav>
+      <div>
+        <h1 class="nev">Why Us?</h1>
+        <p class="per">At SyntaxSavvy, we specialize in creating custom websites that are visually appealing, user-friendly, and optimized for search engines. We offer a comprehensive range of web development services, including custom design, mobile-responsiveness, fast load time, user-friendly navigation, a content management system (CMS), e-commerce functionality, social media integration, and affordable pricing. Our team is dedicated to providing the best possible customer service, with ongoing support to ensure that your website remains up-to-date and running smoothly. Choose us for your website development needs and experience the difference that quality, affordable web development can make for your business.</p>
+      </div>
+  <div class="rec columns">
+    <ul class="price">
+      <li class="header">Basic</li>
+      <li class="grey"> </li>
+      <li>Custom Design</li>
+      <li>Mobile-Friendly</li>
+      <li>Fast Loading</li>
+      <li>User-Friendly</li>
+      <li class="grey"><a href="#" class="button">Get IT</a></li>
+    </ul>
+  </div> 
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Standard</li>
+      <li class="grey"> </li>
+      <li>Basic Included</li>
+      <li>Content Management</li>
+      <li>Backend Form</li>
+      <li>Full Website</li>
+      <li class="grey"><a href="#" class="button">Get IT</a></li>
+    </ul>
+  </div> 
+  <div class="columns">
+    <ul class="price">
+      <li class="header">Premium</li>
+      <li class="grey"></li>
+      <li>Basic Included</li>
+      <li>Premium Included</li>
+      <li>E-commerce</li>
+      <li>24/7 Support</li>
+      <li class="grey"><a href="#" class="button">Get IT</a></li>
+    </ul>
+  </div> 
+  <script>
+    const menubtn = document.getElementById("menu-btn");
+    const navlinks = document.querySelector(".nav-links");
+
+    menubtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu');
+        
+    })
+    
+</script>
+</body>
+</html>
